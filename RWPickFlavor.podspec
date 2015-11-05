@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     # 2
-    s.version = "0.1.0"
+    s.version = "0.2.0"
 
     # 3
     s.license = { :type => "MIT", :file => "LICENSE" }
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
 
     # 6 - Replace this URL with your own Git URL from "Quick Setup"
-    s.source = { :git => "https://github.com/gigihiski/RWPickFlavor.git", :tag => "0.1.0"}
+    s.source = { :git => "https://github.com/gigihiski/RWPickFlavor.git", :tag => "0.2.0"}
 
     # For example,
     # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
     # 7
     s.framework = "UIKit"
     s.dependency 'Alamofire', '~> 2.0'
+    s.dependency 'BetterBaseClasses', '~> 1.0'
     s.dependency 'MBProgressHUD', '~> 0.9.0'
 
     # 8
